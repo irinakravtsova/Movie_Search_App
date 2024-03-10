@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+  <title>Movie Search App</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div class="container">
+    <div class="input__wrapper">
+      <input type="text" class="js-movie-app movie-app" required placeholder="Название фильма">
+      <button type="button" class="js-btn-find btn-find">Найти</button>
+    </div>
+    <div class="notfound">
+      <p class="notfound_text">Фильмы не найдены</p>
+    </div>
+  
+    <ul class="js-list-movie list-movies">
+      <!-- <li class="movie__card" id=${element.imdbID}>
+        <a class="movie__card_link" href="">
+          <img class="movie-image" src=${element.Poster} alt=${element.Title}>
+          <div class="movie__text">
+            <p class="movie-title">${element.Title}</p>
+            <p class="movie-year">${element.Year}</p>
+            <p class="movie-type">${element.Type}</p>
+          </div>
+        </a>
+      </li>  -->
+    </ul>
+  </div>
+ 
+
+  <script src="index.js"></script>
+</body>
+</html>

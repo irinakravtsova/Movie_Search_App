@@ -1,0 +1,98 @@
+body {
+  font-family:  "Inter", sans-serif;
+}
+.container {
+  max-width: 1440px;
+  padding-top: 102px;
+  padding-left: 160px;
+}
+.input__wrapper {
+margin-bottom: 50px;
+  padding-left: 33px;
+}
+
+.movie-app {
+  margin-right: 24px;
+padding: 11px 0 10px 15px;
+  font-weight: 400;
+  font-size: 32px;
+  color: #979797;
+  border: 1px solid #000;
+}
+.btn-find {
+  padding: 11px 70px 10px 69px;
+  font-weight: 400;
+font-size: 32px;
+color: #fff;
+background-color: rgb(5, 94, 54);
+}
+.list-movies {
+
+}
+
+.movie__card {
+
+}
+.movie__card:hover {
+  
+}
+.movie__card_link {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 30px 15px 30px 30px;
+    border-radius: 35px;
+  width: 660px;
+}
+.movie__card_link:hover {
+  background: #d9d9d9;
+}
+
+
+.movie-image {
+  margin-right: 62px;
+  width: 100px;
+height: 148px;
+display: block;
+
+
+}
+.movie__text {
+/* padding-top: 30px;
+padding-bottom: 15px; */
+
+}
+.movie-title {
+  margin-bottom: 7px;
+  font-weight: 700;
+  font-size: 40px;
+ 
+}
+.movie-year {
+  margin-bottom: 18px;
+  font-weight: 400;
+font-size: 25px;
+color: #0094ff;
+
+}
+.movie-type {
+  font-weight: 400;
+  font-size: 30px;
+
+}
+/* .notfound_oppen {
+opacity: 1;
+visibility: visible;
+} */
+.notfound {
+display: none;
+  /* opacity: 0;
+  visibility: hidden;
+  transition: all 0.5s ease; */
+}
+.notfound_text {
+  padding-left: 33px;
+  font-weight: 700;
+  font-size: 40px;
+  color: #000;
+}
