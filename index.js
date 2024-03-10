@@ -23,7 +23,7 @@ btnNode.addEventListener('click', function() {
     data.Search.forEach(element => {
      movieHTML +=  `
       <li >
-       <a class="movie__card-link" href="/movie.html?id=${element.imdbID}">
+       <a class="movie__card-link" href="movie.html?id=${element.imdbID}">
           <img class="movie-image" src=${element.Poster} alt=${element.Title}>
           <div class="movie__text">
             <p class="movie-title">${element.Title}</p>
