@@ -1,0 +1,52 @@
+body {
+  font-family: "Inter", sans-serif;
+  color: #000;
+}
+.container {
+  max-width: 1440px;
+  padding-top: 60px;
+  padding-left: 172px;
+  padding-bottom: 200px;
+}
+.return-link {
+   font-weight: 700;
+font-size: 40px;
+
+}
+.movie__wrapper {
+  margin-top: 107px;
+ }
+.movie__wrapper-details {
+  margin-bottom: 75px;
+  display: flex;
+}
+.movie__image {
+  width: 300px;
+  height: 372px;
+}
+.movie__input {
+  padding-left: 90px;
+}
+.movie__name {
+  margin-bottom: 33px;
+  font-weight: 700;
+font-size: 50px;
+}
+.movie__info {
+  margin-bottom: 19px;
+} 
+.label {
+  font-weight: 400;
+font-size: 30px;
+}
+.movie__info-text {
+  font-weight: 400;
+  font-size: 30px;
+  color: #0094ff;
+}
+.movie-content {
+ padding-left: 100px;
+ padding-right: 100px;
+  font-weight: 400;
+font-size: 30px;
+}

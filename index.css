@@ -26,17 +26,11 @@ font-size: 32px;
 color: #fff;
 background-color: rgb(5, 94, 54);
 }
-.list-movies {
-
+.btn-find_found {
+  background-color: #000;
 }
 
-.movie__card {
-
-}
-.movie__card:hover {
-  
-}
-.movie__card_link {
+.movie__card-link {
   display: flex;
   justify-content: start;
   align-items: center;
@@ -44,23 +38,15 @@ background-color: rgb(5, 94, 54);
     border-radius: 35px;
   width: 660px;
 }
-.movie__card_link:hover {
+.movie__card-link:hover {
   background: #d9d9d9;
 }
-
 
 .movie-image {
   margin-right: 62px;
   width: 100px;
 height: 148px;
 display: block;
-
-
-}
-.movie__text {
-/* padding-top: 30px;
-padding-bottom: 15px; */
-
 }
 .movie-title {
   margin-bottom: 7px;
@@ -78,19 +64,11 @@ color: #0094ff;
 .movie-type {
   font-weight: 400;
   font-size: 30px;
-
 }
-/* .notfound_oppen {
-opacity: 1;
-visibility: visible;
-} */
 .notfound {
 display: none;
-  /* opacity: 0;
-  visibility: hidden;
-  transition: all 0.5s ease; */
 }
-.notfound_text {
+.notfound-text {
   padding-left: 33px;
   font-weight: 700;
   font-size: 40px;
